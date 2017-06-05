@@ -13,7 +13,7 @@ gem "pages_sphinx"
 Next, run the installer to generate the configuration file:
 
 ```sh
-bin/rails g pages_core:install
+bin/rails g pages_sphinx:install
 ```
 
 You can now start the process and index your content:
