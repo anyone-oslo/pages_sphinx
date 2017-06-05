@@ -1,0 +1,8 @@
+development:
+  mysql41: <%= @sphinx_port %>
+  min_prefix_len: 3
+  dict: keywords
+production:
+  mysql41: <%= @sphinx_port %>
+  min_prefix_len: 3
+  dict: keywords
