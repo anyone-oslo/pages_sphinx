@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = PagesSphinx::VERSION
   s.authors     = ["Inge Jørgensen"]
   s.email       = ["inge@anyone.no"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/anyone-oslo/pages_sphinx"
   s.summary     = "Sphinx support for Pages"
   s.description = "Adds ThinkingSphinx to Pages"
 
