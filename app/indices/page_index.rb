@@ -6,8 +6,6 @@ ThinkingSphinx::Index.define :page, with: :real_time do
   indexes tag_list
   indexes author.name,  as: :author_name
   indexes author.email, as: :author_email
-  indexes comment_names
-  indexes comment_bodies
   indexes file_names
   indexes file_filenames
 

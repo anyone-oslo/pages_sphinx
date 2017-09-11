@@ -16,14 +16,6 @@ module PagesSphinx
       categories.map(&:name)
     end
 
-    def comment_names
-      comments.map(&:name)
-    end
-
-    def comment_bodies
-      comments.map(&:body)
-    end
-
     def file_names
       files.map(&:name)
     end
