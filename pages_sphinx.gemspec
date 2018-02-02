@@ -1,11 +1,10 @@
 # encoding: utf-8
 
 $LOAD_PATH.push File.expand_path("../lib", __FILE__)
-require "pages_sphinx/version"
 
 Gem::Specification.new do |s|
   s.name        = "pages_sphinx"
-  s.version     = PagesSphinx::VERSION
+  s.version     = "0.0.4"
   s.authors     = ["Inge Jørgensen"]
   s.email       = ["inge@anyone.no"]
   s.homepage    = "https://github.com/anyone-oslo/pages_sphinx"

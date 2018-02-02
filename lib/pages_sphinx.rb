@@ -9,7 +9,6 @@ load "pages_sphinx/pages_controller_extension.rb"
 load "pages_sphinx/user_extension.rb"
 
 load "pages_sphinx/engine.rb"
-load "pages_sphinx/version.rb"
 
 module PagesSphinx
 end
