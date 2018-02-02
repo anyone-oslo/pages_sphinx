@@ -14,6 +14,8 @@ module PagesSphinx
       )
       @pages.each { |p| p.localize!(locale) }
       @pages
+    rescue ThinkingSphinx::OutOfBoundsError
+      render_error 404
     end
 
     private
